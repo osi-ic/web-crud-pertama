@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  display: inline;
+}
+
+.edited::after {
+  content: "sedang di edit";
+}

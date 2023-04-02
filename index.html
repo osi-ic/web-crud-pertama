@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web CRUD Pertama</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="form">
+      <input type="text" name="nama" id="nama" />
+      <button onclick="createList()" id="tombol">Send</button>
+    </div>
+
+    <main>
+      <h2 id="pesan"></h2>
+      <ul id="daftar">
+        <li>
+          <h3>Belum ada todo list</h3>
+        </li>
+      </ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
